@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // Development - local backend
-const API_BASE_URL = process.env.REACT_APP_API_URL || 'http://localhost:5000';
+const API_BASE_URL = process.env.REACT_APP_API_URL || 'https://cipherbackend-8fej.onrender.com';
 
 // Production - deployed backend (uncomment when deploying)
 // const API_BASE_URL = 'https://cipherbackend-8fej.onrender.com';
